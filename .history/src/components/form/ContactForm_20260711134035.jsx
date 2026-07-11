@@ -43,7 +43,7 @@ const ContactForm = () => {
         </div>
         <div className={css.box}>
           <label htmlFor="number">Phone Number:</label>
-          <Field type="text" id="number" name="number" autoComplete="tel" className={css.input} />
+          <Field type="text" id="number" name="number" className={css.input} />
           <ErrorMessage name="number" component="div" className={css.error} />
         </div>
         <button type="submit" className={css.button}>
